@@ -1,3 +1,5 @@
+//having problem with merge sort will be fixed
+
 let mergeSortContainer = document.getElementById("mergeSortContainer");
 let mergeSortbtn = document.getElementById("mergeSortbtn");
 let mergeinitbtn = document.getElementById("mergeinitbtn");
