@@ -1,0 +1,56 @@
+.min-h-screen{
+    min-height: 100vh;
+}
+.bg-red{
+    background-color: red;
+}
+.mx-auto{
+margin-left: auto;
+margin-right: auto;
+}
+.item-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center;
+}
+.justify-bw{
+    justify-content: space-between;
+}
+.font-bold{
+    font-weight: bold;
+}
+.flex{display: flex;}
+.flex-col{flex-direction: column;}
+.my-1{
+    margin-top: 23px;
+    margin-bottom: 13px;
+}
+.my-2{
+    margin-top: 20px;
+    margin-bottom: 21px;
+}
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+}
+.text-blue{
+    color: #2c72b4;
+}
+.btn{
+    cursor: pointer;
+    padding: 6px 9px;
+    border: 2px solid #053397;
+    border-radius: 12px;
+    color: white;
+    background-color: #417199;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.text-center{
+    text-align: center;
+}
+
+@media screen and (max-width: 680px) {
+  }

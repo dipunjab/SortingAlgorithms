@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="units.css">
+    <link rel="shortcut icon" href="imges/logo.png" type="image/x-icon">
+    </head>
+<body class="">
+    <div class="container mx-auto overflow-hidden">
+        <header>
+            <nav class="flex justify-bw">
+                <div class="logo font-bold flex item-center text-blue">Sorting Algorithms</div>
+                <ul class="nav-bar flex item-center">
+                    <li>Home</li>
+                    <li>JavaScript</li>
+                    <li>Algorithms</li>
+                    <li><button class="btn">Learn Now</button></li>
+                </ul>
+            </nav>
+            <hr>
+        </header>
+        <main class="min-h-screen ">
+            <section class="section1">
+                <div class="flex  item-center ">
+                    <div class="topleft justify-center  flex flex-col px-2">
+                        <h1 class="my-1 text-center">Let's Sort It Out!</h1>
+                        <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Non aperiam nobis accusantium labore id delectus inventore 
+                            architecto culpa recusandae et, 
+                            dolorem commodi vitae error fugiat ab, 
+                            mollitia magni distinctio ipsum.</p>
+                    </div>
+                    <div class="topright flex justify-center">
+                        <img src="imges/logo.png" alt="logo">
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section class="section2">
+                    <h1 class="text-center my-2">JavaScript</h1>
+                    <p class="my-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum asperiores ut nam dolorem accusamus culpa non perspiciatis quos quas? Error nostrum numquam, fugiat rem vel quasi quibusdam soluta quas porro?</p>    
+                    <div class="boxes flex justify-center">
+                        <div class="box">
+                            <h2>ES6+</h2>
+                            <ul>
+                                <li>Destructuring assignment</li>
+                                <li>Promises</li>
+                                <li>Async/await</li>
+                                <li>Arrow functions</li>
+                                <li>Template literals</li>
+                                <li>Spread and rest operators</li>
+                                <li><button class="btn">More About ES6+</button></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h2>Core Language Features</h2>
+                            <ul>
+                                <li>Variables</li>
+                                <li>Data Types</li>
+                                <li>Operators</li>
+                                <li>Scope</li>
+                                <li>Arrays</li>
+                                <li>Closures</li>
+                                <li><button class="btn">More About CoreFeatures</button></li>
+                            </ul>
+                        </div>
+                        <div class="box">
+                            <h2>Document Object Model(DOM)</h2>
+                            <ul>
+                                <li>Tree Structure</li>
+                                <li>Nodes</li>
+                                <li>Accessing Elements</li>
+                                <li>Manipulating Elements</li>
+                                <li>Event Handling</li>
+                                <li>Dynamic Updates</li>
+                                <li><button class="btn">More About (DOM)</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            <hr>
+            <section class="section3">
+                <h1 class="text-center my-2">Algorithms</h1>
+                <p class="my-2">
+                    An algorithm is a finite sequence of well-defined instructions or steps that specify a computation or problem-solving process. It takes input data, performs a series of operations or transformations, and produces output data.
+                </p>
+                <h2 class="text-center my-2"> Sorting Algorithms</h2>
+                <p class="my-2">
+                    Sorting algorithms are algorithms designed to arrange elements in a list or array into a specific order, typically either ascending or descending. The primary goal of sorting algorithms is to organize data in a structured manner, making it easier to search, retrieve, and analyze. These algorithms take an unordered collection of elements as input and produce a sorted sequence as output.
+                </p>
+                <div class="typesOfSorting">
+                    <h3>Types Of Sorting Algorithms:</h3>
+                    <div class="bubbleSort my-2 sorting">
+                        <h2 class="h2">Bubble Sorting</h2>
+                        <div id="bubbleSortContainer" class="sortBox"></div>
+                        <button id="bubblesortbtn" class="btn">Sort</button>
+                        <button id="bubbleinitbtn" class="btn">Init</button>
+                        <script src="bubblescript.js"></script>
+                    </div>
+                    <div class="selectionSort my-2 sorting">
+                        <h2 class="h2">Selection Sorting</h2>
+                        <div id="selectionSortContainer" class="sortBox"></div>
+                        <button id="selectionSortbtn" class="btn">Sort</button>
+                        <button id="selectioninitbtn" class="btn">Init</button>
+                        <script src="selectionscript.js"></script>
+                    </div>
+                    <div class="insertionSort my-2 sorting">
+                        <h2 class="h2">Insertion Sorting</h2>
+                        <div id="insertionSortContainer" class="sortBox"></div>
+                        <button id="insertionSortbtn" class="btn">Sort</button>
+                        <button id="insertioninitbtn" class="btn">Init</button>
+                        <script src="insertionscript.js"></script>
+                    </div>
+                    <div class="mergeSort my-2 sorting">
+                        <h2 class="h2">Merge Sorting</h2>
+                        <div id="mergeSortContainer" class="sortBox"></div>
+                        <button id="mergeSortbtn" class="btn">Sort</button>
+                        <button id="mergeinitbtn" class="btn">Init</button>
+                        <script src="mergescript.js"></script>
+                    </div>
+                </div>
+            </section>
+            <hr>
+        </main>
+        <footer>footer</footer>
+    </div>
+   
+</body>
+</html>
